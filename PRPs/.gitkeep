@@ -1,0 +1,3 @@
+# This directory stores Problem Resolution Plans (PRPs)
+# PRPs are detailed action plans for resolving specific issues or implementing features
+# Each PRP follows the template in .claude/templates/prp-template.md
