@@ -2,6 +2,8 @@
 
 Build better software with AI-assisted development. Based on [Cole Medin's](https://github.com/coleam00/context-engineering-intro) proven Context Engineering methodology.
 
+📊 **See [COMPARISON.md](COMPARISON.md) for detailed comparison with Cole's original approach.**
+
 ## Two Commands to Build Anything
 
 ```bash
