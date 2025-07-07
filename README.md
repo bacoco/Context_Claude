@@ -9,7 +9,7 @@ Build better software with AI-assisted development. Based on [Cole Medin's](http
 /build                                   # Execute the plan
 ```
 
-That's it. No complicated workflows.
+That's it. No complicated workflows. See [COMMANDS.md](COMMANDS.md) for all available commands.
 
 ## Optional: Verify with Gemini
 
@@ -78,22 +78,47 @@ claude-code .
 </details>
 
 <details>
-<summary><b>Advanced Usage</b></summary>
+<summary><b>Complete Command Reference</b></summary>
 
-### Gemini Specific Checks
+### 🚀 Simple Commands (Recommended)
+| Command | What it does | Wraps |
+|---------|--------------|-------|
+| `/make-plan "description"` | Creates development plan | `/project:development:generate-enhanced-prp` |
+| `/build` | Executes the plan | `/project:development:execute-enhanced-prp` |
+| `gemini check` | Smart auto-review | Auto-detects needed check |
+
+### 📂 All Available Commands
+
+#### Development Commands
+- `/project:development:analyze-issue` - Structured issue analysis
+- `/project:development:generate-enhanced-prp` - Generate detailed PRP
+- `/project:development:execute-enhanced-prp` - Execute PRP with validation
+- `/project:development:implement-feature` - Systematic implementation
+- `/project:development:quality-review` - Multi-level QA process
+
+#### Research Commands
+- `/project:research:deep-research` - Comprehensive technical research
+- `/project:research:documentation-scan` - Systematic doc analysis
+- `/project:research:pattern-analysis` - Codebase pattern discovery
+
+#### Validation Commands
+- `/project:validation:comprehensive-test` - 6-level testing protocol
+- `/project:validation:regression-check` - Regression prevention
+- `/project:validation:security-audit` - Security validation
+
+#### Workflow Commands
+- `/project:workflow:session-start` - Initialize work session
+- `/project:workflow:checkpoint` - Progress validation
+- `/project:workflow:task-complete` - Task completion verification
+
+#### Gemini Commands
+- `/gemini-check` - Smart auto-detection (NEW)
 - `/gemini-review` - Force plan review
+- `/gemini-code` - Force code quality check
 - `/gemini-security` - Force security audit
 - `/gemini-arch` - Force architecture review
-- `/gemini-code` - Force code quality check
 - `/gemini-risk` - Force risk assessment
-
-### Manual Workflow
-If you prefer more control:
-1. `/project:development:generate-enhanced-prp` - Generate detailed PRP
-2. `/project:development:execute-enhanced-prp` - Execute with validation
-3. `/project:validation:comprehensive-test` - Run full test suite
-
-See [docs/advanced.md](docs/advanced.md) for complete command reference.
+- `/gemini` - Custom analysis with prompt
 
 </details>
 
