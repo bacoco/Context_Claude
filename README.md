@@ -39,20 +39,20 @@ chmod +x validate_setup.sh
 3. **Generate a PRP:** `/project:development:generate-enhanced-prp`
 4. **Implement systematically:** `/project:development:implement-feature`
 
-## 🔍 AI Verification with Gemini (Optional)
+## 🔍 Gemini Quick Review (Optional)
 
-**Optional Enhancement:** Integrate Gemini AI for independent code review and plan verification. If Gemini is not installed, these steps can be safely skipped.
+**Optional:** Get instant AI feedback on your code and plans. If Gemini isn't available, just skip these.
 
-### Quick Verification Commands
-- `/project:research:gemini-plan-review` - Instant review of Claude's current plan
-- `/project:research:gemini-code-analysis` - Automatic code quality assessment  
-- `/project:research:gemini-security-check` - Zero-config vulnerability scan
-- `/project:research:gemini-architecture-review` - Architecture and design evaluation
-- `/project:research:gemini-risk-assessment` - Risk and blocker identification
+### Simple Commands
+- `/gemini-review` - Quick review of current plan
+- `/gemini-code` - Check code quality  
+- `/gemini-security` - Security scan
+- `/gemini-arch` - Architecture review
+- `/gemini-risk` - Risk check
 
-**Note:** If Gemini is unavailable, continue with standard workflow. Gemini verification is an optional quality enhancement, not a requirement.
+Or just say: `gemini review this` in conversation.
 
-📖 See [readme_gemini.md](readme_gemini.md) for complete documentation and installation instructions.
+📖 See [gemini-guide.md](gemini-guide.md) for examples.
 
 ## 📋 System Overview
 

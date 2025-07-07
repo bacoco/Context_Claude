@@ -17,7 +17,7 @@ Claude is about to implement a user authentication system. Let's use Gemini to r
 ]
 
 # Run Gemini plan review
-$ /project:research:gemini-plan-review
+$ /gemini-review
 
 # Gemini's response:
 # Plan Review
@@ -40,7 +40,7 @@ Claude has implemented the authentication system. Time for a security audit.
 
 ```bash
 # Run security check
-$ /project:research:gemini-security-check
+$ /gemini-security
 
 # Gemini's response:
 # Security Report
@@ -64,7 +64,7 @@ Mid-development checkpoint to assess code quality.
 
 ```bash
 # Run code analysis
-$ /project:research:gemini-code-analysis
+$ /gemini-code
 
 # Gemini's response:
 # Code Analysis
@@ -87,7 +87,7 @@ System is growing. Need to assess architecture before adding more features.
 
 ```bash
 # Run architecture review
-$ /project:research:gemini-architecture-review
+$ /gemini-arch
 
 # Gemini's response:
 # Architecture Assessment
@@ -110,7 +110,7 @@ About to deploy to production. Final risk check.
 
 ```bash
 # Run risk assessment
-$ /project:research:gemini-risk-assessment
+$ /gemini-risk
 
 # Gemini's response:
 # Risk Assessment
@@ -164,7 +164,7 @@ Gemini is not installed on the system.
 
 ```bash
 # Attempt to run Gemini command
-$ /project:research:gemini-plan-review
+$ /gemini-review
 
 # Output when Gemini not available:
 Gemini not installed - skipping verification
@@ -177,9 +177,9 @@ Gemini not installed - skipping verification
 ### 1. Pre-Implementation Verification Loop
 ```bash
 1. Create implementation plan
-2. /project:research:gemini-plan-review
+2. /gemini-review
 3. Adjust plan based on feedback
-4. /project:research:gemini-risk-assessment
+4. /gemini-risk
 5. Begin implementation
 ```
 
@@ -187,17 +187,17 @@ Gemini not installed - skipping verification
 ```bash
 # After each major component:
 - Implement feature
-- /project:research:gemini-code-analysis
+- /gemini-code
 - Refactor based on feedback
-- /project:research:gemini-security-check
+- /gemini-security
 - Fix security issues
 ```
 
 ### 3. Pre-Deployment Checklist
 ```bash
-1. /project:research:gemini-security-check
-2. /project:research:gemini-architecture-review
-3. /project:research:gemini-risk-assessment
+1. /gemini-security
+2. /gemini-arch
+3. /gemini-risk
 4. Address all critical issues
 5. Deploy with confidence
 ```
@@ -215,7 +215,7 @@ TodoWrite([
 ])
 
 # 2. Gemini reviews the plan
-/project:research:gemini-plan-review
+/gemini-review
 # Gemini suggests: "Add PCI compliance considerations"
 
 # 3. Claude updates plan based on feedback
@@ -227,7 +227,7 @@ TodoWrite([
 # ... implementation code ...
 
 # 5. Gemini checks security
-/project:research:gemini-security-check
+/gemini-security
 # Gemini finds: "Credit card data logged in debug mode"
 
 # 6. Claude fixes issues and continues
@@ -253,8 +253,8 @@ gemini --prompt "Review the JWT implementation in auth.js specifically for token
 **Solution**: Use targeted simple commands instead of full analysis
 ```bash
 # Instead of full analysis, use:
-/project:research:gemini-security-check  # Just security
-/project:research:gemini-code-analysis   # Just code quality
+/gemini-security  # Just security
+/gemini-code   # Just code quality
 ```
 
 ### Issue: Conflicting recommendations
