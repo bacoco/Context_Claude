@@ -151,18 +151,18 @@ IMPORTANT: You must NEVER write files or execute shell commands. Only provide an
 
 1. **Plan Phase**
    - Claude creates implementation plan
-   - `gemini-plan-review` validates approach
+   - `/project:research:gemini-plan-review` validates approach
    - Adjust plan based on feedback
 
 2. **Implementation Phase**
    - Claude implements features
-   - `gemini-code-analysis` during development
+   - `/project:research:gemini-code-analysis` during development
    - Address issues as identified
 
 3. **Completion Phase**
-   - `gemini-security-check` for vulnerabilities
-   - `gemini-architecture-review` for design
-   - `gemini-risk-assessment` before deployment
+   - `/project:research:gemini-security-check` for vulnerabilities
+   - `/project:research:gemini-architecture-review` for design
+   - `/project:research:gemini-risk-assessment` before deployment
 
 ### Skip Patterns
 
@@ -219,12 +219,12 @@ Error: Gemini service unavailable
 
 | Command | Purpose | Configuration | When to Use |
 |---------|---------|---------------|-------------|
-| `gemini-plan-review` | Review implementation plans | None | Before starting work |
-| `gemini-code-analysis` | Assess code quality | None | During development |
-| `gemini-security-check` | Find vulnerabilities | None | Before deployment |
-| `gemini-architecture-review` | Evaluate design | None | System changes |
-| `gemini-risk-assessment` | Identify risks | None | Critical features |
-| `gemini-analysis` | Custom analysis | Required | Specific needs |
+| `/project:research:gemini-plan-review` | Review implementation plans | None | Before starting work |
+| `/project:research:gemini-code-analysis` | Assess code quality | None | During development |
+| `/project:research:gemini-security-check` | Find vulnerabilities | None | Before deployment |
+| `/project:research:gemini-architecture-review` | Evaluate design | None | System changes |
+| `/project:research:gemini-risk-assessment` | Identify risks | None | Critical features |
+| `/project:research:gemini-analysis` | Custom analysis | Required | Specific needs |
 
 ## Conclusion
 

@@ -4,7 +4,7 @@ Welcome! This guide will help you get up and running with the Enhanced Context E
 
 ## 🎯 What is This Framework?
 
-The Enhanced Context Engineering Framework is a systematic approach to AI-assisted software development that ensures:
+The Enhanced Context Engineering Framework is a systematic approach to Claude Code software development that ensures:
 - **Consistent Quality**: Every task follows a proven 7-step methodology
 - **Comprehensive Testing**: Built-in quality gates ensure robust code
 - **Professional Documentation**: Automatic knowledge capture and transfer
@@ -15,8 +15,8 @@ The Enhanced Context Engineering Framework is a systematic approach to AI-assist
 ### Step 1: Install the Framework
 ```bash
 # Clone or download the repository
-git clone <repository-url>
-cd enhanced-context-engineering
+git clone https://github.com/bacoco/Context_Claude.git
+cd Context_Claude
 
 # Make the setup script executable
 chmod +x setup.sh
@@ -36,8 +36,13 @@ You should see:
 - ✅ All command files present
 - ✅ Configuration valid
 
-### Step 3: Start Your AI Assistant
-Open your AI assistant (Claude, ChatGPT, Gemini, etc.) in the project directory. The framework is AI-agnostic and works with any assistant that supports:
+### Step 3: Start Claude Code
+Open Claude Code in the project directory:
+```bash
+claude-code .
+```
+
+Claude Code provides all required capabilities:
 - File reading and editing
 - Command execution
 - Structured responses

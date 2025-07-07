@@ -4,22 +4,22 @@
 >
 > 📖 See [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md) for full attribution and our enhancements to Cole's original vision.
 
-A comprehensive AI-assisted software development framework that integrates systematic engineering methodologies with advanced context engineering principles.
+A comprehensive Claude Code software development framework that integrates systematic engineering methodologies with advanced context engineering principles.
 
 📚 **New to the framework?** Start with our [Getting Started Guide](GETTING_STARTED.md) for a step-by-step introduction!
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- An AI assistant with code execution capabilities
+- Claude Code (with code execution capabilities)
 - Python 3.8+ (for validation scripts)
 - Git (for version control)
 
 ### Installation
 ```bash
 # 1. Clone or download this repository
-git clone <your-repo-url>
-cd enhanced-context-engineering
+git clone https://github.com/bacoco/Context_Claude.git
+cd Context_Claude
 
 # 2. Run the setup script
 chmod +x setup.sh
@@ -29,8 +29,8 @@ chmod +x setup.sh
 chmod +x validate_setup.sh
 ./validate_setup.sh
 
-# 4. Start your AI assistant in this directory
-# (refer to your AI assistant's documentation)
+# 4. Start Claude Code in this directory
+# Example: claude-code .
 ```
 
 ### First Steps
@@ -44,11 +44,11 @@ chmod +x validate_setup.sh
 **Optional Enhancement:** Integrate Gemini AI for independent code review and plan verification. If Gemini is not installed, these steps can be safely skipped.
 
 ### Quick Verification Commands
-- `gemini-plan-review` - Instant review of Claude's current plan
-- `gemini-code-analysis` - Automatic code quality assessment  
-- `gemini-security-check` - Zero-config vulnerability scan
-- `gemini-architecture-review` - Architecture and design evaluation
-- `gemini-risk-assessment` - Risk and blocker identification
+- `/project:research:gemini-plan-review` - Instant review of Claude's current plan
+- `/project:research:gemini-code-analysis` - Automatic code quality assessment  
+- `/project:research:gemini-security-check` - Zero-config vulnerability scan
+- `/project:research:gemini-architecture-review` - Architecture and design evaluation
+- `/project:research:gemini-risk-assessment` - Risk and blocker identification
 
 **Note:** If Gemini is unavailable, continue with standard workflow. Gemini verification is an optional quality enhancement, not a requirement.
 
@@ -257,7 +257,7 @@ docs/
 **Commands not appearing in `/` menu:**
 - Ensure `.claude/commands/` directory structure is correct
 - Check file permissions and naming conventions
-- Restart your AI assistant after making changes
+- Restart Claude Code after making changes
 
 **Validation failures:**
 - Check `config.json` for correct validation levels
