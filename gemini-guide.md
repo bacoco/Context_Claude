@@ -5,18 +5,14 @@ Get quick feedback on your code and plans. No complex setup needed.
 ## Quick Start
 
 ```bash
-# Just type these in Claude:
-/gemini-review    # Review current plan
-/gemini-code      # Check code quality
-/gemini-security  # Security scan
-/gemini-arch      # Architecture review
-/gemini-risk      # Risk assessment
+# Just one command:
+gemini check      # Auto-detects what to review
 
-# Or in conversation:
-"gemini review this"
-"gemini check security"
-"gemini analyze the architecture"
+# Or use /command syntax:
+/gemini-check     # Same thing
 ```
+
+That's it! Gemini automatically figures out what needs checking.
 
 ## What Each Command Does
 
