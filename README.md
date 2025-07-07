@@ -1,5 +1,9 @@
 # Enhanced Context Engineering Framework
 
+> 🏆 **Built upon [Cole Medin's Context Engineering](https://github.com/coleam00/context-engineering-intro)** - the revolutionary approach that proved "Context Engineering is 10x better than prompt engineering and 100x better than vibe coding."
+>
+> 📖 See [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md) for full attribution and our enhancements to Cole's original vision.
+
 A comprehensive AI-assisted software development framework that integrates systematic engineering methodologies with advanced context engineering principles.
 
 📚 **New to the framework?** Start with our [Getting Started Guide](GETTING_STARTED.md) for a step-by-step introduction!
@@ -283,10 +287,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Acknowledgments
 
-- Inspired by systematic software engineering methodologies
-- Built upon proven context engineering principles
+- **Cole Medin (@coleam00)** - Creator of the original [Context Engineering methodology](https://github.com/coleam00/context-engineering-intro)
+- Built upon Cole's proven context engineering principles
+- Inspired by systematic software engineering methodologies  
 - Community contributions and feedback
 - Open source tools and libraries used
+
+👉 **Full attribution and comparison in [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md)**
 
 ## 📚 Key Resources
 
